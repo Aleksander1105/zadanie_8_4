@@ -1,0 +1,27 @@
+{
+  "name": "zadanie_8_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "scripts": {
+    "init-project": "npm install && npm run init:dirs && npm run init:files && npm run init:gitignore",
+    "init:dirs": "mkdirp sass css vendor images js",
+    "init:files": "touch README.md index.html sass/style.scss js/script.js",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksander1105/zadanie_8_4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksander1105/zadanie_8_4/issues"
+  },
+  "homepage": "https://github.com/Aleksander1105/zadanie_8_4#readme"
+}
